@@ -8,19 +8,19 @@
             
             <Label Text="Digite os valores para calcular as raízes da equação do segundo grau:" FontSize="15"/>
             <Label Text="A: " FontSize="Large"/>
-            <Entry x:Name="a" Placeholder="Digite o valor de A" Keyboard="Numeric"/>
+            <Entry x:Name="entryA" Placeholder="Digite o valor de A" Keyboard="Numeric"/>
             <Label Text="B: " FontSize="Large"/>
-            <Entry x:Name="b" Placeholder="Digite o valor de B" Keyboard="Numeric"/>
+            <Entry x:Name="entryB" Placeholder="Digite o valor de B" Keyboard="Numeric"/>
             <Label Text="C: " FontSize="Large"/>
-            <Entry x:Name="c" Placeholder="Digite o valor de C" Keyboard="Numeric"/>
+            <Entry x:Name="entryC" Placeholder="Digite o valor de C" Keyboard="Numeric"/>
             
             <Button x:Name="btCalcularBhaskara" Text="Calcular" HorizontalOptions="Fill" Clicked="btCalcularBhaskara_Clicked"/>
 
             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" VerticalOptions="Center">
                 <Label Text="X1: " FontSize="Large"/>
-                <Label x:Name="x1" Text="0" FontSize="Large" TextColor="Red"/>
+                <Label x:Name="labelX1" Text="0" FontSize="Large" TextColor="Red"/>
                 <Label Text="X2: " FontSize="Large"/>
-                <Label x:Name="x2" Text="0" FontSize="Large" TextColor="Red"/>
+                <Label x:Name="labelX2" Text="0" FontSize="Large" TextColor="Red"/>
             </HorizontalStackLayout>
 
         </VerticalStackLayout>
